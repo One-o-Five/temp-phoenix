@@ -15,7 +15,7 @@
 </head>
 <body>
 <!-- 헤더 포함 -->
-<jsp:include page="../header.jsp" />
+<jsp:include page="/WEB-INF/views/header.jsp" />
 
 <div class="reservation-container">
     <!-- 사용자 환영 메시지 -->
@@ -178,11 +178,4 @@
 </div>
 
 <!-- JavaScript -->
-<script>
-
-</script>
-
-<!-- 모달 스타일 -->
-<style>
-
-</style>
+<script src="/resources/js/reservation.js"></script>
